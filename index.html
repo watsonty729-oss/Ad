@@ -1,106 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Lead Marketing</title>
-<style>
-html{scroll-behavior:smooth}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#07090f;color:#fff}
-nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:18px 6%;background:rgba(0,0,0,.75);backdrop-filter:blur(8px);z-index:100}
-.logo{font-size:2rem;font-weight:bold;color:#ff9f1a}
-nav ul{display:flex;list-style:none;gap:28px}
-nav a{text-decoration:none;color:#fff}
-.email{padding:10px 20px;border:2px solid #ff9f1a;border-radius:8px;color:#ffb347}
-.hero{background:url('background.jpg') center/cover no-repeat;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;position:relative}
-.hero:before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.55)}
-.hero .content{position:relative;z-index:2;max-width:900px}
-h1{font-size:4rem;color:#ffb347}
-.hero p{font-size:1.3rem;margin:20px auto;max-width:700px}
-.btn{display:inline-block;margin:10px;padding:16px 34px;border-radius:8px;background:#ff9f1a;color:#111;font-weight:bold;text-decoration:none}
-section{padding:90px 8%}
-h2{text-align:center;color:#ffb347;margin-bottom:40px;font-size:2.5rem}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
-.card,.price{background:#111827;border:1px solid #2d3748;border-radius:15px;padding:28px}
-.price{text-align:center}
-.price h3{color:#ffb347}
-.cost{font-size:3rem;margin:15px 0;color:#ff9f1a}
-.price ul{text-align:left;padding-left:20px;margin:20px 0}
-footer{background:#050608;padding:40px;text-align:center;color:#aaa}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Lead Marketing | AI Advertising & Lead Generation</title>
+
+    <meta name="description" content="Helping local businesses generate more customers using AI Advertising, AI Phone Agents and Automated Follow-Up.">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav>
-<div class="logo">AI Lead Marketing</div>
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#expertise">Expertise</a></li>
-<li><a href="#pricing">Pricing</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-<a class="email" href="mailto:hello@aileadmarketing.com">Email Us</a>
+<nav class="navbar">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="AI Lead Marketing">
+    </a>
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#services">Services</a></li>
+
+        <li><a href="#about">Why Us</a></li>
+
+        <li><a href="#pricing">Pricing</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <a href="mailto:hello@aileadmarketing.com" class="email-btn">
+        Email Us
+    </a>
+
 </nav>
 
-<header class="hero" id="home">
-<div class="content">
-<h1>AI Lead Marketing</h1>
-<p>Helping local businesses generate more leads, book more appointments and close more sales using AI advertising, AI phone agents and automated follow‑up.</p>
-<a class="btn" href="#pricing">View Plans</a>
-<a class="btn" href="mailto:hello@aileadmarketing.com">Email Us</a>
-</div>
+<header id="home">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-content">
+
+        <h1>
+            AI That Brings You More Customers.
+        </h1>
+
+        <p>
+
+            AI Lead Marketing helps local businesses generate qualified leads,
+            answer every phone call, automate follow-up,
+            and book more appointments.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#pricing" class="primary-btn">
+                View Plans
+            </a>
+
+            <a href="mailto:hello@aileadmarketing.com" class="secondary-btn">
+                Email Us
+            </a>
+
+        </div>
+
+    </div>
+
 </header>
 
 <section id="services">
-<h2>Our Services</h2>
-<div class="grid">
-<div class="card"><h3>AI Advertising</h3><p>High-converting advertising campaigns.</p></div>
-<div class="card"><h3>Lead Generation</h3><p>Consistent qualified leads for your business.</p></div>
-<div class="card"><h3>AI Phone Agents</h3><p>24/7 AI that answers, qualifies and books.</p></div>
-<div class="card"><h3>Automated Follow-Up</h3><p>SMS & email nurturing that converts.</p></div>
-<div class="card"><h3>Appointment Booking</h3><p>Automatic scheduling for new customers.</p></div>
-</div>
+
+    <h2>Our Services</h2>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <h3>AI Advertising</h3>
+            <p>Professional advertising campaigns designed to generate qualified leads.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Lead Generation</h3>
+            <p>Consistent systems that bring new prospects to your business.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>AI Phone Agents</h3>
+            <p>AI voice agents that answer calls, qualify leads and schedule appointments.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Automated Follow-Up</h3>
+            <p>Automatic SMS and email follow-up so opportunities aren't missed.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Appointment Booking</h3>
+            <p>Allow customers to schedule appointments automatically.</p>
+        </div>
+
+    </div>
+
 </section>
 
-<section id="expertise">
-<h2>Why Choose AI Lead Marketing?</h2>
-<div class="grid">
-<div class="card"><h3>Unique Approach</h3><p>AI combined with proven marketing strategies.</p></div>
-<div class="card"><h3>Technology</h3><p>Lead scoring, automation, analytics and optimization.</p></div>
-<div class="card"><h3>Your Partner</h3><p>Focused on long-term business growth.</p></div>
-</div>
+<section id="about">
+
+    <h2>Why AI Lead Marketing?</h2>
+
+    <p>
+
+        We combine artificial intelligence with proven marketing systems to help local businesses generate more customers while saving time. From advertising to AI phone agents and automated follow-up, our solutions are designed to help you grow.
+
+    </p>
+
 </section>
 
 <section id="pricing">
-<h2>Simple Pricing</h2>
-<div class="grid">
-<div class="price">
-<h3>Starter</h3><div class="cost">$149</div>
-<ul><li>Advertising Support</li><li>Lead Capture</li><li>Monthly Review</li></ul>
-<a class="btn" href="mailto:hello@aileadmarketing.com?subject=Starter Plan">Email Us</a>
-</div>
-<div class="price">
-<h3>Growth</h3><div class="cost">$399</div>
-<ul><li>Advanced Advertising</li><li>Lead Generation</li><li>Automated Follow-Up</li><li>Priority Support</li></ul>
-<a class="btn" href="mailto:hello@aileadmarketing.com?subject=Growth Plan">Email Us</a>
-</div>
-<div class="price">
-<h3>Premium</h3><div class="cost">$799</div>
-<ul><li>AI Phone Agents</li><li>Appointment Booking</li><li>Complete Automation</li><li>Premium Support</li></ul>
-<a class="btn" href="mailto:hello@aileadmarketing.com?subject=Premium Plan">Email Us</a>
-</div>
-</div>
+
+    <h2>Simple Monthly Pricing</h2>
+
+    <div class="pricing-grid">
+
+        <div class="pricing-card">
+
+            <h3>Starter</h3>
+
+            <h4>$149 / Month</h4>
+
+            <ul>
+
+                <li>Advertising Support</li>
+
+                <li>Lead Capture</li>
+
+                <li>Monthly Review</li>
+
+            </ul>
+
+            <a href="mailto:hello@aileadmarketing.com?subject=Starter Plan" class="primary-btn">
+                Email Us
+            </a>
+
+        </div>
+
+        <div class="pricing-card featured">
+
+            <h3>Growth</h3>
+
+            <h4>$399 / Month</h4>
+
+            <ul>
+
+                <li>Advanced Advertising</li>
+
+                <li>Lead Generation</li>
+
+                <li>Automated Follow-Up</li>
+
+                <li>Priority Support</li>
+
+            </ul>
+
+            <a href="mailto:hello@aileadmarketing.com?subject=Growth Plan" class="primary-btn">
+                Email Us
+            </a>
+
+        </div>
+
+        <div class="pricing-card">
+
+            <h3>Premium</h3>
+
+            <h4>$799 / Month</h4>
+
+            <ul>
+
+                <li>AI Phone Agents</li>
+
+                <li>Appointment Booking</li>
+
+                <li>Complete Automation</li>
+
+                <li>Premium Support</li>
+
+            </ul>
+
+            <a href="mailto:hello@aileadmarketing.com?subject=Premium Plan" class="primary-btn">
+                Email Us
+            </a>
+
+        </div>
+
+    </div>
+
 </section>
 
 <section id="contact">
-<h2>Ready to Grow?</h2>
-<p style="text-align:center">Email us today to learn how AI Lead Marketing can help your business grow.</p>
-<p style="text-align:center;margin-top:20px"><a class="btn" href="mailto:hello@aileadmarketing.com">hello@aileadmarketing.com</a></p>
+
+    <h2>Ready To Grow?</h2>
+
+    <p>
+
+        Contact AI Lead Marketing today and discover how artificial intelligence can help your business generate more customers.
+
+    </p>
+
+    <a href="mailto:hello@aileadmarketing.com" class="primary-btn">
+        Email Us
+    </a>
+
 </section>
 
-<footer>© 2026 AI Lead Marketing. All Rights Reserved.</footer>
+<footer>
+
+    <img src="images/logo.png" alt="AI Lead Marketing Logo">
+
+    <p>
+
+        © 2026 AI Lead Marketing. All Rights Reserved.
+
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
