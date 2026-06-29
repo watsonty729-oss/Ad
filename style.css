@@ -219,7 +219,7 @@ header{
             rgba(5,8,12,.75),
             rgba(5,8,12,.82)
         ),
-        url("images/hero.png");
+        url("hero.png");
 
     background-size:cover;
 
